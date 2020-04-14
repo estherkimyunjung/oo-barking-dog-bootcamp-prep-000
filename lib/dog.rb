@@ -6,7 +6,9 @@ class Dog
   # def name
   #   @name
   # end
+  
   attr_accessor :name
+  
   def bark
     puts "woof!"
   end
